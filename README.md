@@ -171,23 +171,3 @@ git push -u origin main
    automatically and launch the app — no other configuration needed.
 6. Any future `git push` to `main` auto-redeploys the app.
 
----
-
-## Resume Bullet Points
-
-- Built **InsightFlow**, an end-to-end sales analytics platform processing 100K+
-  synthetic transaction records through a Python/Pandas ETL pipeline (cleaning,
-  outlier handling, feature engineering) into a deployed interactive Streamlit
-  dashboard.
-- Designed and implemented **RFM customer segmentation** (Recency, Frequency,
-  Monetary) to classify 7,000+ customers into actionable segments (Champions,
-  At Risk, Lost), surfacing revenue and profit contribution per segment.
-- Authored 15+ **SQL queries** (CTEs, window functions, ranking) against a
-  SQLite data warehouse to answer core business questions on sales, profit,
-  and customer retention — all verified for correctness.
-- Developed a dynamic, filterable **Plotly/Streamlit dashboard** (8 analytical
-  views: Overview, Sales, Profitability, Customers, Products, Regions, RFM,
-  Insights) with zero hard-coded values — every metric computed live from data.
-- Engineered an automated **business-insights engine** that generates natural-
-  language recommendations (e.g., discount/margin trade-offs) directly from
-  computed statistics, deployed on Streamlit Community Cloud.
